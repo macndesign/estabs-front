@@ -1,0 +1,42 @@
+.App {
+  margin-left: 20px;
+}
+
+input {
+  display: block;
+  margin: 5px 0 5px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul.menu li, input[type=submit] {
+  cursor: pointer;
+  display: inline;
+  background: cornflowerblue;
+  padding: .2em .5em;
+  color: white;
+  border-radius: .2em;
+  margin-right: 1em;
+  border: none;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1em;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+  background-color: #4CAF50;
+  color: white;
+}
